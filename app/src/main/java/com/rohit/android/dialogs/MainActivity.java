@@ -24,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-    private void showDialog() {
+        private void showDialog() {
 
         Person p = new Person("micky", "mouse", 35 );
         // sending the person object p to the DataEntryDialog object

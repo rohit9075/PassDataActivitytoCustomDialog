@@ -32,7 +32,6 @@ public class DataEntryDialog extends DialogFragment{
         View rootView = inflater.inflate(R.layout.data_entry_dialog,
                 container, false);
 
-
         etFirstName = (EditText) rootView.findViewById(R.id.textFirstName);
         etLastName = (EditText) rootView.findViewById(R.id.textLastName);
         etAge = (EditText) rootView.findViewById(R.id.textAge);
@@ -42,8 +41,6 @@ public class DataEntryDialog extends DialogFragment{
         etFirstName.setText(person.getFirstName());
         etLastName.setText(person.getLastName());
         etAge.setText(String.valueOf(person.getAge()));
-
-
 
         Button btnOk = (Button) rootView.findViewById(R.id.btnOk);
         btnOk.setOnClickListener(new View.OnClickListener() {
